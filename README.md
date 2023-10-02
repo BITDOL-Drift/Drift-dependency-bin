@@ -43,8 +43,7 @@ bazel build --config=opt  //tensorflow/tools/pip_package:build_pip_package ## th
 If you just need tensorflow package. just download **tensorflow-1.15.5-cp27-cp27mu-linux_aarch64.whl** to your workspace and build with below command.
 
 ```bash
-sudo apt install -y python-pip ##dependencies
-sudo apt install python-h5py
+sudo apt install -y python-pip python-h5py ##dependencies
 pip install --upgrade setuptools wheel numpy future
 pip install grpcio keras_preprocessing==1.1.2 mock==3.0.5 protobuf==3.6.1 --no-deps
 sudo -H pip install tensorflow-1.15.5-cp27-cp27mu-linux_aarch64.whl

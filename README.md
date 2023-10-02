@@ -16,6 +16,7 @@ If you need another version of tensorflow, you can use this binary file for buil
 Bazel and tensorflow needs below dependency packages to build.
 
 ```bash
+sudo apt update
 sudo apt install build-essential openjdk-11-jdk git vim python zip unzip -y
 sudo apt install python-pip
 sudo apt install python-h5py

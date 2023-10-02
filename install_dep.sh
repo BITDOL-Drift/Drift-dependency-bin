@@ -1,3 +1,4 @@
+sudo apt update 
 sudo apt install -y python-pip python-h5py
 pip install --upgrade setuptools wheel numpy future
 pip install grpcio keras_preprocessing==1.1.2 mock==3.0.5 protobuf==3.6.1 --no-deps

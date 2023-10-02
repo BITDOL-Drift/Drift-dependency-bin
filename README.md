@@ -49,7 +49,7 @@ pip install grpcio keras_preprocessing==1.1.2 mock==3.0.5 protobuf==3.6.1 --no-d
 sudo -H pip install tensorflow-1.15.5-cp27-cp27mu-linux_aarch64.whl
 ```
 
-check your version with
+Check your version with
 
 ```python
 import tensorflow as tf
